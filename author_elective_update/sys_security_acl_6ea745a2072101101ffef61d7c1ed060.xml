@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <condition table="x_58872_needit_needit.*">active=true^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Default access control on x_58872_needit_needit</description>
+        <name>x_58872_needit_needit.*</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 08:55:10</sys_created_on>
+        <sys_id>6ea745a2072101101ffef61d7c1ed060</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>x_58872_needit_needit.*</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_security_acl_6ea745a2072101101ffef61d7c1ed060</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-14 10:14:29</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>f9819b52db352c18387021c4059619c1</instance_id>
+        <instance_name>dev105045</instance_name>
+        <name>sys_security_acl_6ea745a2072101101ffef61d7c1ed060</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>true</advanced><condition table="x_58872_needit_needit.*">active=true^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>Default access control on x_58872_needit_needit</description><name>x_58872_needit_needit.*</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-11 08:55:10</sys_created_on><sys_id>6ea745a2072101101ffef61d7c1ed060</sys_id><sys_mod_count>19</sys_mod_count><sys_name>x_58872_needit_needit.*</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_security_acl_6ea745a2072101101ffef61d7c1ed060</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-14 10:14:29</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>157069618</payload_hash>
+        <record_name>x_58872_needit_needit.*</record_name>
+        <reverted_from/>
+        <source>160b941a076101101ffef61d7c1ed0a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-14 10:14:29</sys_created_on>
+        <sys_id>2e13c5a0075201101ffef61d7c1ed098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f87ec12e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-14 10:14:29</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>2613c5a0345201106c87397a31a9dc98</update_guid>
+        <update_guid_history>2613c5a0345201106c87397a31a9dc98:157069618,bcf205a030520110d9124a34ffcecd98:-812066036,d9e438e44f1201104d035e05a92f45bc:1402857355,6154f8a473120110d7a180ca684bdd05:403586983,48a68ee3ee028110485e9ca32513632b:2129944723,cab58ee339028110af8ef01d2abccf81:-1105254389,33950ea377028110d4202d83ac061285:1402857355,5865c2e3d70281103d10e9f81b4c1ac9:-1378375382,b9e48aa32e028110e9bd18796c9f36a7:-1325993583,0ac446a35602811081f55172e5e5f792:1720344584,a594c2a3250281107d0fa000fcc54129:-256031279,d364c6638402811050fe3d7fc7b0c358:1916251377,25c38a63230281105b4090f56a9319ad:-256031279,7b930a635d028110b0d0607bf0031d86:1916251377,c1734663d9028110eb68e1e0d6b55e3c:-1378375382,f97a65efe78e4110c8e1044f568f828e:668181165,b5d9e5af6d8e4110f04e8dcb05cf145a:-700473913,85b8e56ffc8e411071494809053da398:661508790,2228ed2f6f8e4110c9ebc28deff478b0:674872466,aea745a230210110c0d575c3c18b6d62:-163785957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-14 10:32:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>36a36bb3e8694111b599ea20a72248f9</sys_id>
+        <sys_metadata>6ea745a2072101101ffef61d7c1ed060</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit.*</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="x_58872_needit_needit">eaa745a2072101101ffef61d7c1ed072</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6ea745a2072101101ffef61d7c1ed060</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6ea745a2072101101ffef61d7c1ed060">2e13c5a0075201101ffef61d7c1ed098</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-14 10:32:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
